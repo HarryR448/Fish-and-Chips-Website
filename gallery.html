@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gallery</title>  <!--Sets title and below the character-set is set as well as the webpages keywords, description and author-->
+        <meta charset="UTF-8"/>
+		<meta name="description" content="Come to Weston Fish and Chips and enjoy our menu of traditional British fish and chips">
+		<meta name="author" content="Harry Richards">
+		<meta name="keywords" content="Fish,chips,Fish and chips, Fish and Chips Gallery, Weston , Weston Fish and Chips">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>   <!--Links the page to the Css page stylesheet for styling this page-->
+    </head>
+    <body>
+		<div id="wrapper"> <!--This creates a div around the entire webpage effectivly placing all the other div boxes into one big box around it -->
+			<div id="banner"> <!--This Div creates the banner which contains the images for the icon and title--> 
+				<img src="pictures/Icon.PNG" alt="This is the buisness icon for weston fish and chips, it shows a jumping fish alongside the name of the buisness"/>
+				<img id="Mtitle" src="pictures/Title.PNG" alt="This is the official title for the buisness which shows the buisness name Weston Fish and Chips in an artistic format"/>
+			</div>
+	   
+			<div id="navigation"> <!--This div creates a navigation bar which contains a list and its purpose is to link to other pages-->
+				<ul class="menu"> <!--The list below is assigned to the class, menu for styling in css-->
+					<li><a href="index.html"><span>Home</span></a></li> <!--Creates a link to the page index on the words Home -->
+					<li><a href="menu.html" class="linksgap"><span>Restaurant Menu</span></a></li> <!--Creates a link to the page menu on the words Restaurant Menu -->
+					<li><a href="gallery.html" class="active linksgap"><span>Gallery</span></a></li> <!--Creates a link to the page gallery on the words Gallery and assigns this to the active class for styling in css -->
+					<li><a href="about.html" class="linksgap"><span>About Us</span></a></li> <!--Creates a link to the page about on the words About Us-->
+					<li><a href="contact.html" class="linksgap"><span>Contact Us</span></a></li> <!--Creates a link to the page contact on the words Contact Us-->
+					<li><a href="help.html" class="linksgap"><span>Help</span></a></li> <!--Creates a link to the page help on the words Help -->
+				</ul>
+			</div>
+	   
+			<div id="content"> <!--This div creates a content box which is filled with text and pictures creating a geller in this case-->
+				<h1 class="contenttitle">Our Food</h1> <!--This is the page content title-->
+		
+				<div class="gallery"> <!--Creates a div assigned to the class gallery-->
+					<div class="gallerydesc">Our Cod and Chips.</div> <!--A description is added in a seperate div-->
+					<a href="pictures/cod.png">  <!--Makes it so the following declared image below links to a more detailed version of the picture -->
+						<img class="gallerypic" src="thumbnails/cod.jpg" alt="This shows a picture of battered cod.">  <!--adds a picture to the div and assigns it to a class and an alt is there for if the picture doesnt work or for screenreaders to read-->
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our battered sausage.</div>
+					<a href="pictures/batteredsausage.png">
+						<img  class="gallerypic" src="thumbnails/batteredsausage.jpg" alt="This shows a picture of battered sausage."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our fishcakes.</div>
+					<a href="pictures/fishcake.png">
+						<img class="gallerypic" src="thumbnails/fishcake.jpg" alt="This shows a picture of a fishcake."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our battered haddock.</div>
+					<a href="pictures/haddock.png">
+						<img class="gallerypic" src="thumbnails/haddock.jpg" alt="This shows a picture of battered haddock."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our scampi.</div>
+					<a href="pictures/scampi.png">
+						<img class="gallerypic" src="thumbnails/scampi.jpg" alt="This shows a picture of scampi."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our chicken nuggets.</div>
+					<a href="pictures/chickennuggets.png">
+						<img class="gallerypic" src="thumbnails/chickennuggets.jpg" alt="This shows a picture of chicken nuggets."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">We also sell pukka pies</div>
+					<a href="pictures/pukkapie.png">
+						<img class="gallerypic" src="thumbnails/pukkapie.jpg" alt="This shows a picture of a mushroom pie."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our vegetable burger</div>
+					<a href="pictures/veggieburger.jpg">
+						<img class="gallerypic" src="thumbnails/veggieburger.jpg" alt="This shows a picture of a vegetable burger."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our beef burger</div>
+					<a href="pictures/beefburger.jpg">
+						<img class="gallerypic" src="thumbnails/beefburger.jpg" alt="This shows a picture of a beef burger."/>
+					</a>
+				</div>
+			
+				<div class="gallery">
+					<div class="gallerydesc">Our Onion Rings</div>
+					<a href="pictures/onionrings.jpg">
+						<img class="gallerypic" src="thumbnails/onionrings.jpg" alt="This shows a picture of fried onion rings"/>
+					</a>
+				</div>
+				
+			</div><!--end of content div-->
+		   
+			<div id="footer"> <!--This div creates a footer that will contain text in paragraphs giving some business info-->
+				<p class="ftext">This website is the property of Weston Fish and Chips located at 1 small drove weston PE12 6HS.</p>
+				<p class="ftext">Website created by Harry Richards.</p>
+			</div>
+		</div> <!-- end of wrapper div-->
+    </body>
+</html>

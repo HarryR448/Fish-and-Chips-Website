@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Menu</title>  <!--Sets title and below the character-set is set as well as the webpages keywords, description and author-->
+        <meta charset="UTF-8"/>
+		<meta name="description" content="Come to Weston Fish and Chips and enjoy our menu of traditional British fish and chips">
+		<meta name="author" content="Harry Richards">
+		<meta name="keywords" content="Fish,chips,Fish and chips, Fish and Chips Menu, Weston , Weston Fish and Chips">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>   <!--Links the page to the Css page stylesheet for styling this page-->
+    </head>
+    <body>
+		<div id="wrapper"> <!--This creates a div around the entire webpage effectivly placing all the other div boxes into one big box around it -->
+			<div id="banner"> <!--This Div creates the banner which contains the images for the icon and title--> 
+				<img src="pictures/Icon.PNG" alt="This is the buisness icon for weston fish and chips, it shows a jumping fish alongside the name of the business"/>
+				<img id="Mtitle" src="pictures/Title.PNG" alt="This is the official title for the buisness which shows the buisness name Weston Fish and Chips in an artistic format"/>
+			</div>
+	   
+			<div id="navigation"> <!--This div creates a navigation bar which contains a list and its purpose is to link to other pages-->
+				<ul class="menu"> <!--The list below is assigned to the class, menu for styling in css-->
+					<li><a href="index.html" ><span>Home</span></a></li>  <!--Creates a link to the page index on the words Home-->
+					<li><a href="menu.html" class="active linksgap"><span>Restaurant Menu</span></a></li> <!--Creates a link to the page menu on the words Restaurant Menu and assigns this to the active class for styling in css-->
+					<li><a href="gallery.html" class="linksgap"><span>Gallery</span></a></li> <!--Creates a link to the page gallery on the words Gallery -->
+					<li><a href="about.html" class="linksgap"><span>About Us</span></a></li> <!--Creates a link to the page about on the words About Us-->
+					<li><a href="contact.html" class="linksgap"><span>Contact Us</span></a></li> <!--Creates a link to the page contact on the words Contact Us-->
+					<li><a href="help.html" class="linksgap"><span>Help</span></a></li> <!--Creates a link to the page help on the words Help -->
+				</ul>
+			</div>
+	   
+			<div id="content"> <!--This div creates a content box which is filled with a picture for the menu-->
+				<img id="menu" src = "pictures/menu.PNG" 
+				alt="This shows the resturaunt menu including the prices which are as follows: 
+				Chips cost the following, Small one pound sixty pence, Regular one pound ninty pence, Large two pounds twenty five pence, Chip Butty one pound eighty pence, Cheesy Chips three pounds, Cone of chips one pound forty-five pence
+				Fish costs the following, Cod-Medium three pounds fifty pence, Cod-Large four pounds twenty pence, Haddock three pounds ninty pence, Mackerel three pounds fourty pence, Scampi three pounds fifty five pence, Fish cake one pound, Cod Roe one pound ten pence
+				Pukka pies cost the following, Steak & kidney two pounds twenty pence, Chicken and mushroom two pounds twenty pence, Beef and onion two pounds twenty pence, Chicken curry two pounds twenty pence, Cheese, onion and potato two pounds twenty pence
+				Burgers cost the following, quarter pounder two pounds sixty pence, quarter pounder cheeseburger two pounds eighty-five pence, quarter pounder battered burger two pounds sixty pence, Chicken burger two pounds ninty pence, Veggie burger two pounds
+				Chicken nuggets cost the following, 8 Chicken Nuggets two pounds ninty pence, 16 Chicken Nuggets five pounds twenty pence
+				Extras cost the following, Bread roll fifty pence, Gravy one pound, Curry sauce one pound, Mushy peas one pound, Scotch egg one pound thirty pence, Onion rings one pound thirty pence
+				Drinks cost the following, Cans 330ml eighty pence, 2Litre bottles two pounds"/>
+			<!--This is the menu picture with its positioning applied in css through the menu classand an alt tag that says all its contents-->
+	   
+			</div>
+	   
+			<div id="footer"> <!--This div creates a footer that will contain text in paragraphs giving some business info-->
+				<p class="ftext">This website is the property of Weston Fish and Chips located at 1 small drove weston PE12 6HS.</p>
+				<p class="ftext">Website created by Harry Richards.</p>
+			</div>
+		</div> <!--End of wrapper div-->
+	</body>
+</html>

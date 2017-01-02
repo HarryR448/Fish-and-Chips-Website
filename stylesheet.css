@@ -1,0 +1,167 @@
+
+#wrapper /*This styles the wrapper div , below is styled the height and width as well as the margin being set to follow the movement of the page  */
+{
+	height: 800px;
+	width: 950px;
+	margin:auto;
+}
+
+Html /*This styles the entirety of the html documents linked to this css , below the background colour is set */
+{
+	background-color:#F5F5DC;
+}
+
+#banner /*This styles the div for the banner of the page setting its dimensions among other details below*/
+{
+    height: 140px;
+    width:858px;
+    background-color: #0099FF;  /*This gives the div an azure background*/
+	margin-left: 50px;		  /*This pushes the div 50px towards the right moving it towards the middle of the page*/
+	padding:5px 5px 5px 5px;  /*This extends the div box but makes the new area unwritable and this enabled space between the box edges and the text*/
+	border-radius:10px;       /*This makes the div's corners curved making it a curved box */
+	margin-bottom:5px;		  /*This creates a margin below the banner which pushes the navigation box down*/
+}
+/*The above comments can be applied to the below as well as the same criteria are used with different contents*/
+
+#content	/*This styles the div for the content box of the page setting its dimensions among other details below*/
+{
+    height:500px;
+    width: 858px;
+    background-color:#0099FF;
+	margin-left: 50px;
+	padding: 5px;
+	border-radius:10px;
+	margin-top:5px
+	
+}
+
+#navigation 	/*This styles the div for the navigation of the page setting its dimensions among other details below*/
+{
+	height:30px;
+	width:858px;
+	background-color:#0099FF;
+	margin-left:50px;
+	padding: 5px 5px 5px 5px;
+	border-radius:10px;
+}
+
+#footer /*This styles the div for the footer of the page setting its dimensions among other details below*/
+{
+	height:55px;
+	width:858px;
+	background-color:#0099FF;
+	margin-left:50px;
+	margin-top:5px;
+	padding: 5px 5px 5px 5px;
+	border-radius:10px;
+}
+
+#Mtitle  /*This id moves the title into place by setting margins around it*/
+{
+	margin-bottom:50px;
+	margin-left:85px;
+}
+
+.text /*This class sets the font to arial and has it at size 11pt on the content box of each page */
+{
+	font-family:Arial;
+	Font-size:11pt;
+}
+
+.ftext /*This id gives the footer text font arial and gives the text the size of 9pt*/
+{
+	font-family:Arial;
+	font-size:9pt;
+}
+
+.linksgap /*This class creates a margin between each of the navigation links thus creating space between each one*/
+{
+	margin-left:60px;
+}
+
+.contenttitle /*This sets all the content header's to the below font and size*/
+{
+	font-family:Times New Roman;
+	font-size:22pt;
+}
+
+
+.gallery 	/*This styles the div's for the gallery giving each picture the correct positioning*/
+  {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-right:5px;
+	float:left;		/*This aligns all the pictures making them align going from left to right*/
+	margin-left:5px;
+	height:180px;
+	width:159px;
+}
+
+.gallerydesc  /*This styles the div for the image descriptions on the gallery page giving them the right font, size and positioning*/
+  {
+    margin-left:5px;
+	font-family:Arial;
+	Font-size:11pt;
+	width:170px;
+	margin-right:5px;
+}
+
+.gallerypic    /*This places a margin around the pictures moving them all slightly to look better*/
+{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+}
+
+.picturedesc  /*This styles the div for the image descriptions on the home page giving them the right font, size and positioning*/
+  {
+    margin-left:5px;
+	font-family:Arial;
+	Font-size:11pt;
+	width:250px;
+	margin-right:5px;
+}
+
+.pictures 	/*This styles the div's for the homepage giving each picture the correct positioning*/
+  {
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;		
+	margin-left:5px;
+	display:inline;
+	height:180px;
+	width:250px;
+}
+
+
+.picturealt 	/*This styles the div for the homepage's middle picture giving the correct positioning with the surrrounding pictures*/
+  {
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;		
+	margin-left:5px;
+	display:inline;
+	height:180px;
+	width:340px;
+}
+
+#menu	/*This id moves the menu on the menu page towards the centre of the content box*/
+{
+	margin-left:190px;
+
+}
+
+#aboutpic	/*This id moves the picture on the about us page to the centre*/
+{
+margin-left:340px;
+}
+
+/*The below class is setting numerous details for the menu system including giving it a font when the menu option is active or inactive,setting colours and assiging paddng ect*/
+.menu	{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('pictures/topMenuImages.png') repeat-x;}
+.menu li	{padding:0; margin:0; list-style:none; display:inline;}
+.menu li a		{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px "Copperplate Gothic Light",  Arial, Verdana, Helvetica, sans-serif; cursor:pointer; background:url('pictures/topMenuImages.png') 0px -30px no-repeat;}
+.menu li a span		{line-height:30px; float:left; display:block; padding-right:15px; background:url('pictures/topMenuImages.png') 100% -30px no-repeat;}
+.menu li a:hover	{background-position:0px -60px; color:rgb(255,255,255);}
+.menu li a:hover span	{background-position:100% -60px;}
+.menu li a.active, .menu li a.active:hover	{line-height:30px; font:12px  "Copperplate Gothic Light",  Arial, Verdana, Helvetica, sans-serif; background:url('pictures/topMenuImages.png') 0px -90px no-repeat; color:rgb(255,255,255);}
+.menu li a.active span, .menu li a.active:hover span	{background:url('pictures/topMenuImages.png') 100% -90px no-repeat;}

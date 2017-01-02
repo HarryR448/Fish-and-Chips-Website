@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Homepage</title> <!--Sets title and below the character-set is set as well as the webpages keywords, description and author-->
+        <meta charset="UTF-8"/>
+		<meta name="description" content="Come to Weston Fish and Chips and enjoy our menu of traditional British fish and chips">
+		<meta name="author" content="Harry Richards">
+		<meta name="keywords" content="Fish,chips, Fish and chips, Fish and Chips Homepage, Weston , Weston Fish and Chips">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>   <!--Links the page to the Css page stylesheet for styling this page-->
+    </head>
+    <body>
+		<div id="wrapper"> <!--This creates a div around the entire webpage effectivly placing all the other div boxes into one big box around it -->
+			<div id="banner"> <!--This Div creates the banner which contains the images for the icon and title--> 
+				<img src="pictures/Icon.PNG" alt="This is the buisness icon for weston fish and chips, it shows a jumping fish alongside the name of the buisness"/>
+				<img id="Mtitle" src="pictures/Title.PNG" alt="This is the official title for the buisness which shows the buisness name Weston Fish and Chips in an artistic format"/>
+			</div>
+	   
+			<div id="navigation"> <!--This div creates a navigation bar which contains a list and its purpose is to link to other pages-->
+				<ul class="menu"> <!--The list below is assigned to the class, menu for styling in css-->
+					<li><a href="index.html"  class="active"><span>Home</span></a></li> <!--Creates a link to the page index on the words Home and assigns this to the active class for styling in css-->
+					<li><a href="menu.html" class="linksgap"><span>Restaurant Menu</span></a></li> <!--Creates a link to the page menu on the words Restaurant Menu -->
+					<li><a href="gallery.html" class="linksgap"><span>Gallery</span></a></li> <!--Creates a link to the page gallery on the words Gallery -->
+					<li><a href="about.html" class="linksgap"><span>About Us</span></a></li> <!--Creates a link to the page about on the words About Us-->
+					<li><a href="contact.html" class="linksgap" ><span>Contact Us</span></a></li> <!--Creates a link to the page contact on the words Contact Us-->
+					<li><a href="help.html" class="linksgap" ><span>Help</span></a></li> <!--Creates a link to the page help on the words Help -->
+				</ul>
+			</div>
+	   
+			<div id="content">  <!--This div creates a content box which is filled with text and/or pictures-->
+				<h1 class="contenttitle">Welcome to our Website</h1>
+				<p class="text">We are weston fish and chips a small fish and chips store located in weston.</p>
+				<p class="text">We serve a variety of foods including Cod, Chicken Nuggets, fish cake and chips among a variety of other foods , for our selection please check on the menu!</p>
+				<p class="text">We are committed to serving a variety of healthy and tasty food to you locally, and we aim to provide our continued support to the community.</P>
+				<p class="text">We offer both eating in store and takeaway.</p>
+			
+				<div class="pictures">  <!--Picture and a description for it is added each in their own div tags and the picture links to a higher quality version of the picture on click-->
+					<a href="pictures/cookingfish.png">
+						<img src="thumbnails/cookingfish.jpg" alt="This shows a piece of fish being but on display after being battered"/>
+					</a>
+					<div class="picturedesc">Come eat our local sourced fish cooked to perfection.</div>
+				</div>
+			
+				<div class="picturealt">
+					<a href="pictures/welcome.jpg">
+						<img src="thumbnails/welcome.jpg" alt="This shows a person working"/>
+					</a>
+					<div class="picturedesc">Our staff are always working hard and you are welcome to pop in anytime.</div>
+				</div>
+			
+			
+				<div class="pictures">
+					<a href="pictures/freshcod.jpg">
+						<img src="thumbnails/freshcod.jpg" alt="This shows fresh uncooked cod"/>
+					</a>
+					<div class="picturedesc">We only use the best, local sourced fish in our restaurant.</div>
+				</div>
+			
+			</div> <!--end of content div-->
+	   
+	   
+			<div id="footer"> <!--This div creates a footer that will contain text in paragraphs giving some business info-->
+				<p class="ftext">This website is the property of Weston Fish and Chips located at 1 small drove weston PE12 6HS.</p>
+				<p class="ftext">Website created by Harry Richards.</p>
+			</div>
+		</div> <!--closing the wrapper div-->
+    </body>
+</html>
